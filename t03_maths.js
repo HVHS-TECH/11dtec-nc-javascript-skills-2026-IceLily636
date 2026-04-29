@@ -10,10 +10,10 @@ console.log("hi")
 
 // variables
 let username = "Kayla"
-let year = "2026"
-let age ="15"
-let money ="200"
-let birthyear ="2011"
+let year = 2026
+let age =15
+let money =200
+let birthyear =2011
 let oldage;
 let newmoney;
 let newermoney;
