@@ -13,6 +13,8 @@ let username = "Kayla"
 let year = "2026"
 let age ="15"
 let money ="200"
+let birthyear = ""
+let oldage =""
 /****************************
  main code
  **********************/
