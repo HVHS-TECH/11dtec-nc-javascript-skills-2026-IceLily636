@@ -3,8 +3,7 @@ let year = "2026"
 let age ="15"
 let money ="200"
 
-console.log("Hi" + username +"As of " + year + "you are " + age + "years old "
-"As of " + year + "you have " + money +);
+console.log("Hi" + username +"As of " + year + "you are " + age + "years old. As of " + year + "you have " + money );
  
 /****************************
 Name of task: variables
