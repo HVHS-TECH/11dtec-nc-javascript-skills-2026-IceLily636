@@ -4,8 +4,8 @@ let age ="15"
 let money ="200"
 
 console.log("Hi + username")
-console.log("As of" + year+ "you are" +age+ "years old")
-console.log("As of" + year+ "you have" +money+ )
+console.log("As of" + year + "you are" + age + "years old")
+console.log("As of" + year + "you have" + money + )
 /****************************
 Name of task: variables
 ****************************/
