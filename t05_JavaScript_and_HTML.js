@@ -24,7 +24,7 @@ newermoney = newmoney+3;
 /****************************
  main code
  **********************/
-
+OUTPUT.innerHTML=""Hi " + username +" As of " + year + " you are " + age + " years old. As of " + year + " you have " + money + "dollars""
 
 
  /*****************************
