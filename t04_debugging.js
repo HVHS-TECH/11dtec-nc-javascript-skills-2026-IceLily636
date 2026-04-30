@@ -2,7 +2,7 @@ console.log("Task 4 - Debugging")
 
 // Set up the size of the page.
 let length = 8;
-let width = 10
+let width = 10;
 
 // calculate the area
 let area = length * width;
