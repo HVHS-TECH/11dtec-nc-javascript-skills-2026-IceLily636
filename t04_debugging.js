@@ -5,7 +5,7 @@ let length = 8;
 let width = 10
 
 // calculate the area
-let area = length* width;
+let area = length * width;
 
 // calculate the perimeter
 let perimeter =( 2 * length) + (2 * width);
