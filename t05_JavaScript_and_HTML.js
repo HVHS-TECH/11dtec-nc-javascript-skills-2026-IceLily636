@@ -8,7 +8,7 @@ Name of task: maths
 ****************************/
 console.log("t02_variables.js")
 console.log("hi")
-
+const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 // variables
 let username = "Kayla"
 let year = 2026
@@ -26,7 +26,7 @@ newermoney = newmoney+3;
  **********************/
 
 
- 
+
  /*****************************
  functions
  ***************************/
