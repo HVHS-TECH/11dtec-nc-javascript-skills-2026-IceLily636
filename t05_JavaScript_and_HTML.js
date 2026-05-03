@@ -25,11 +25,11 @@ newermoney = newmoney+3;
  main code
  **********************/
 OUTPUT.innerHTML="<h2>Hi " + username +" As of " + year + " you are " + age + " years old. As of " + year + " you have " + money + "dollars</h2>";
-OUTPUT.innerHTML="<h2> You were born in " + birthyear "</h2>";
-OUTPUT.innerHTML="<h2>In 10 years you will be " + oldage + " years old</h2>";
-OUTPUT.innerHTML="<h2>You have " +money+ " dollars</h2>";
-OUTPUT.innerHTML="<h2>You spend half of your money, now you have" + newmoney+ "dollars</h2>";
-OUTPUT.innerHTML="<h2>Then you get $3, now you have " +newermoney+ " dollars</h2>"
+OUTPUT.innerHTML+="<h2> You were born in " + birthyear "</h2>";
+OUTPUT.innerHTML+="<h2>In 10 years you will be " + oldage + " years old</h2>";
+OUTPUT.innerHTML+="<h2>You have " +money+ " dollars</h2>";
+OUTPUT.innerHTML+="<h2>You spend half of your money, now you have" + newmoney+ "dollars</h2>";
+OUTPUT.innerHTML+="<h2>Then you get $3, now you have " +newermoney+ " dollars</h2>"
  /*****************************
  functions
  ***************************/
