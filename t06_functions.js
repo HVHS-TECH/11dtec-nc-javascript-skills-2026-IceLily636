@@ -18,7 +18,7 @@ newmoney = money/2;
 oldage = age + 10;
 newermoney = newmoney+3;
 function writeline(){
-    OUTPUT.innerHTML = "<p>welcome to the shop</p>";}
+    OUTPUT.innerHTML = "<h1>welcome to the shop</h1>";}
 
 console.log("Hi " + username +" As of " + year + " you are " + age + " years old. As of " + year + " you have " + money + "dollars");
 console.log("You were born in " + birthyear)
