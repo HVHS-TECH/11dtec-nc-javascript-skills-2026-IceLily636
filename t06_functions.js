@@ -18,8 +18,8 @@ newmoney = money/2;
 oldage = age + 10;
 newermoney = newmoney+3;
 function writeline(){
-    OUTPUT.innerHTML +="<p>welcome to the shop</p>";}
-    
+    OUTPUT.innerHTML = "<p>welcome to the shop</p>";}
+
 console.log("Hi " + username +" As of " + year + " you are " + age + " years old. As of " + year + " you have " + money + "dollars");
 console.log("You were born in " + birthyear)
 console.log("In 10 years you will be " + oldage + " years old")
@@ -31,7 +31,7 @@ console.log("Then you get $3, now you have " +newermoney+ " dollars")
  main code
  **********************/
 writeline()
-OUTPUT.innerHTML="<h2>Hi " + username +" As of " + year + " you are " + age + " years old. As of " + year + " you have " + money + "dollars</h2>";
+OUTPUT.innerHTML+="<h2>Hi " + username +" As of " + year + " you are " + age + " years old. As of " + year + " you have " + money + "dollars</h2>";
 OUTPUT.innerHTML+="<h2> You were born in " + birthyear+ "</h2>";
 OUTPUT.innerHTML+="<h2>In 10 years you will be " + oldage + " years old</h2>";
 OUTPUT.innerHTML+="<h2>You have " +money+ " dollars</h2>";
