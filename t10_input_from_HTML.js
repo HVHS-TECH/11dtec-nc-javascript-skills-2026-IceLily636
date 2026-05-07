@@ -22,7 +22,11 @@ function writeline(){
     OUTPUT.innerHTML = "<h1>welcome to the shop</h1>";}
 const NAME_FIELD = document.getElementById("nameField");
 let userName = NAME_FIELD. value;
-
+function getFormInput(){
+const NAME_FIELD = document.getElementById("nameField");
+let userName = NAME_FIELD. value;
+OUTPUT.innerHTML = "<p>Your name is"+username+"</p>";
+}
 console.log("Hi " + username +" As of " + year + " you are " + age + " years old. As of " + year + " you have " + money + "dollars");
 console.log("You were born in " + birthyear)
 console.log("In 10 years you will be " + oldage + " years old")
