@@ -34,6 +34,7 @@ console.log("Then you get $3, now you have " +newermoney+ " dollars")
 /****************************
  main code
  **********************/
+function start() { 
 writeline();
 item1("Chocolate bar ",4)
 item1("Chips ",3)
@@ -44,3 +45,4 @@ OUTPUT.innerHTML+="<h2>In 10 years you will be " + oldage + " years old</h2>";
 OUTPUT.innerHTML+="<h2>You have " +money+ " dollars</h2>";
 OUTPUT.innerHTML+="<h2>You spend half of your money, now you have" + newmoney+ "dollars</h2>";
 OUTPUT.innerHTML+="<h2>Then you get $3, now you have " +newermoney+ " dollars</h2>";
+}
