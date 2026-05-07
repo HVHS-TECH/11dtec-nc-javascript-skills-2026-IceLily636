@@ -20,12 +20,11 @@ oldage = age + 10;
 newermoney = newmoney+3;
 function writeline(){
     OUTPUT.innerHTML = "<h1>welcome to the shop</h1>";}
-const NAME_FIELD = document.getElementById("nameField");
-let userName = NAME_FIELD. value;
+
 function getFormInput(){
 const NAME_FIELD = document.getElementById("nameField");
-let userName = NAME_FIELD. value;
-OUTPUT.innerHTML = "<p>Your name is"+username+"</p>";
+let userName = NAME_FIELD.value;
+OUTPUT.innerHTML = "<p>Your name is"+userName+"</p>";
 }
 console.log("Hi " + username +" As of " + year + " you are " + age + " years old. As of " + year + " you have " + money + "dollars");
 console.log("You were born in " + birthyear)
