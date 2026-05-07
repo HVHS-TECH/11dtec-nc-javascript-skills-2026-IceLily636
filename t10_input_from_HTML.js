@@ -25,7 +25,7 @@ function writeline(){
 function getFormInput(){
 let NAME_FIELD = document.getElementById("nameField");
 username = NAME_FIELD.value;
-OUTPUT.innerHTML = "<p>Your name is"+username+"</p>";
+OUTPUT.innerHTML += "<p>Your name is"+username+"</p>";
 
 console.log("Hi " + username +" As of " + year + " you are " + age + " years old. As of " + year + " you have " + money + "dollars");
 console.log("You were born in " + birthyear)
