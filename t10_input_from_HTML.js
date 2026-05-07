@@ -23,7 +23,7 @@ function writeline(){
 }
 
 function getFormInput(){
-let NAME_FIELD = document.getElementById("nameField").value;
+let NAME_FIELD = document.getElementById("nameField");
 username = NAME_FIELD.value;
 OUTPUT.innerHTML = "<p>Your name is"+username+"</p>";
 
