@@ -23,10 +23,10 @@ function writeline(){
 }
 
 function getFormInput(){
-let userName = document.getElementById("nameFeild").value;
-// let userName = NAME_FIELD.value;
-OUTPUT.innerHTML = "<p>Your name is"+userName+"</p>";
-}
+let NAME_FIELD = document.getElementById("nameField").value;
+username = NAME_FIELD.value;
+OUTPUT.innerHTML = "<p>Your name is"+username+"</p>";
+
 console.log("Hi " + username +" As of " + year + " you are " + age + " years old. As of " + year + " you have " + money + "dollars");
 console.log("You were born in " + birthyear)
 console.log("In 10 years you will be " + oldage + " years old")
@@ -49,4 +49,4 @@ OUTPUT.innerHTML+="<h2>Then you get $3, now you have " +newermoney+ " dollars</h
  /*****************************
  functions
  ***************************/
-
+}
