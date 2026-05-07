@@ -7,11 +7,11 @@ console.log("t02_variables.js")
 console.log("hi")
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 // variables
-let username = "Kayla"
-let year = 2026
-let age =15
-let money =200
-let birthyear =2011
+let username;
+let year = 2026;
+let age =15;
+let money =200;
+let birthyear =2011;
 let oldage;
 let newmoney;
 let newermoney;
@@ -19,12 +19,13 @@ newmoney = money/2;
 oldage = age + 10;
 newermoney = newmoney+3;
 function writeline(){
-    OUTPUT.innerHTML = "<h1>welcome to the shop</h1>";}
+    OUTPUT.innerHTML = "<h1>welcome to the shop</h1>";
+}
 
 function getFormInput(){
-let userName = document.getElementById("nameField").value;
+let userName = document.getElementById("nameFeild").value;
 // let userName = NAME_FIELD.value;
-OUTPUT.innerHTML = "<p>Your name is"+username+"</p>";
+OUTPUT.innerHTML = "<p>Your name is"+userName+"</p>";
 }
 console.log("Hi " + username +" As of " + year + " you are " + age + " years old. As of " + year + " you have " + money + "dollars");
 console.log("You were born in " + birthyear)
