@@ -7,6 +7,7 @@ console.log("t02_variables.js")
 console.log("hi")
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 // variables
+let age = Number(AGE_FIELD.value);
 let username;
 let year = 2026;
 let age =15;
