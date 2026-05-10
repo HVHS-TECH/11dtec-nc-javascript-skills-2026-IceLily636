@@ -16,9 +16,7 @@ let birthyear =2011;
 let oldage;
 let newmoney;
 let newermoney;
-newmoney = money/2;
-oldage = age + 10;
-newermoney = newmoney+3;
+
 function writeline(){
     OUTPUT.innerHTML = "<h1>welcome to the shop</h1>";
 }
@@ -30,7 +28,9 @@ let AGE_FIELD = document.getElementById("ageField");
 age = Number(AGE_FIELD.value);
 let MONEY_FIELD = document.getElementById("moneyField");
 money = Number(MONEY_FIELD.value);
-
+newmoney = money/2;
+oldage = age + 10;
+newermoney = newmoney+3;
 console.log("Hi " + username +" As of " + year + " you are " + age + " years old. As of " + year + " you have " + money + "dollars");
 console.log("You were born in " + birthyear)
 console.log("In 10 years you will be " + oldage + " years old")
