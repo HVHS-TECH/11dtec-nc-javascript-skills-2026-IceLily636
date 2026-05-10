@@ -53,5 +53,5 @@ OUTPUT.innerHTML+="<h2>Then you get $3, now you have " +newermoney+ " dollars</h
  ***************************/
 }
 function getFormInputAge(){
-    
+const AGE_FIELD = document.getElementById("ageField");
 }
