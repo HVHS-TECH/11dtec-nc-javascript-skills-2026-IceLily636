@@ -7,7 +7,7 @@ console.log("t02_variables.js")
 console.log("hi")
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 // variables
-let age = Number(AGE_FIELD.value);
+
 let username;
 let year = 2026;
 let age = 15;
@@ -26,7 +26,7 @@ function writeline(){
 function getFormInput(){
 let NAME_FIELD = document.getElementById("nameField");
 username = NAME_FIELD.value;
-
+let age = Number(AGE_FIELD.value);
 
 console.log("Hi " + username +" As of " + year + " you are " + age + " years old. As of " + year + " you have " + money + "dollars");
 console.log("You were born in " + birthyear)
