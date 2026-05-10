@@ -10,8 +10,8 @@ const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 
 let username;
 let year = 2026;
-let age = 15;
-let money =200;
+let age;
+let money;
 let birthyear =2011;
 let oldage;
 let newmoney;
@@ -23,10 +23,13 @@ function writeline(){
     OUTPUT.innerHTML = "<h1>welcome to the shop</h1>";
 }
 
-function getFormInputName(){
+function getFormInput(){
 let NAME_FIELD = document.getElementById("nameField");
 username = NAME_FIELD.value;
-let age = Number(AGE_FIELD.value);
+let AGE_FIELD = document.getElementById("ageField");
+age = Number(AGE_FIELD.value);
+let MONEY_FIELD = document.getElementById("moneyField");
+money = Number(MONEY_FIELD.value);
 
 console.log("Hi " + username +" As of " + year + " you are " + age + " years old. As of " + year + " you have " + money + "dollars");
 console.log("You were born in " + birthyear)
@@ -52,6 +55,4 @@ OUTPUT.innerHTML+="<h2>Then you get $3, now you have " +newermoney+ " dollars</h
  functions
  ***************************/
 }
-function getFormInputAge(){
-const AGE_FIELD = document.getElementById("ageField");
-}
+
