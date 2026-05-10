@@ -23,7 +23,7 @@ function writeline(){
     OUTPUT.innerHTML = "<h1>welcome to the shop</h1>";
 }
 
-function getFormInput(){
+function getFormInputName(){
 let NAME_FIELD = document.getElementById("nameField");
 username = NAME_FIELD.value;
 let age = Number(AGE_FIELD.value);
