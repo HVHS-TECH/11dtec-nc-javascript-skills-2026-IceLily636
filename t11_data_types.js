@@ -10,7 +10,7 @@ const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 let age = Number(AGE_FIELD.value);
 let username;
 let year = 2026;
-let age =15;
+let age = 15;
 let money =200;
 let birthyear =2011;
 let oldage;
