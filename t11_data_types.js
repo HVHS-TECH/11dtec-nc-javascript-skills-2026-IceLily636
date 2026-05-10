@@ -52,3 +52,6 @@ OUTPUT.innerHTML+="<h2>Then you get $3, now you have " +newermoney+ " dollars</h
  functions
  ***************************/
 }
+function getFormInputAge(){
+    
+}
