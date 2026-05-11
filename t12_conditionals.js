@@ -17,7 +17,9 @@ let newmoney;
 let newermoney;
 
 function writeline(){
-    OUTPUT.innerHTML = "<h1>welcome to the shop</h1>";
+    OUTPUT.innerHTML = "<h1>welcome to the shop</h1>";}
+function item1(_name, _price){
+OUTPUT.innerHTML += "<P>" + _name + "$"+ _price + "</p>";
 }
 
 function getFormInput(){
@@ -41,7 +43,11 @@ console.log("Then you get $3, now you have " +newermoney+ " dollars")
  main code
  **********************/
 
+
 writeline();
+item1("Chocolate bar ",4)
+item1("Chips ",3)
+item1("Drink ",2.50)
 OUTPUT.innerHTML += "<p>Your name is"+username+"</p>";
 OUTPUT.innerHTML+="<h2>Hi " + username +" As of " + year + " you are " + age + " years old. As of " + year + " you have " + money + "dollars</h2>";
 OUTPUT.innerHTML+="<h2> You were born in " + birthyear+ "</h2>";
