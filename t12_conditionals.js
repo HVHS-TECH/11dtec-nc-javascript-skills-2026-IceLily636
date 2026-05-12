@@ -55,7 +55,7 @@ OUTPUT.innerHTML+="<h2>In 10 years you will be " + oldage + " years old</h2>";
 OUTPUT.innerHTML+="<h2>You have " +money+ " dollars</h2>";
 OUTPUT.innerHTML+="<h2>You spend half of your money, now you have" + newmoney+ "dollars</h2>";
 OUTPUT.innerHTML+="<h2>Then you get $3, now you have " +newermoney+ " dollars</h2>";
-if(money >= 4){
+if(newermoney >= 4){
     OUTPUT.innerHTML +="<p>A chocolate bar is 4 dollars, you can afford it</p>"
 }
 else{
