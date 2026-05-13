@@ -31,16 +31,17 @@ OUTPUT.innerHTML += "<P>" + _name + "$"+ _price + "</p>";
 }
 
 function getFormInput(){
-let NAME_FIELD = document.getElementById("nameField");
+const NAME_FIELD = document.getElementById("nameField");
 username = NAME_FIELD.value;
-let AGE_FIELD = document.getElementById("ageField");
+const AGE_FIELD = document.getElementById("ageField");
 age = Number(AGE_FIELD.value);
-let MONEY_FIELD = document.getElementById("moneyField");
+const MONEY_FIELD = document.getElementById("moneyField");
 money = Number(MONEY_FIELD.value);
 newmoney = money/2;
 oldage = age + 10;
 newermoney = newmoney+3;
-let CHOCOLATE_FIELD = document.getElementById("chocolateField");
+const CHOCOLATE_FIELD = document.getElementById("chocolateField");
+_chocolate = Number(CHOCOLATE_FIELD.value);
 
 console.log("Hi " + username +" As of " + year + " you are " + age + " years old. As of " + year + " you have " + money + "dollars");
 console.log("You were born in " + birthyear)
