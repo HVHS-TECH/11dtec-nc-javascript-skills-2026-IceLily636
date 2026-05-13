@@ -15,13 +15,11 @@ let birthyear =2011;
 let oldage;
 let newmoney;
 let newermoney;
+let change;
 
-function calculatePay(_hours){
-let pay= _hours*18.80;
-pay=pay-(pay*0.105);
-pay=pay-(pay*0.04);
-pay=pay+10;
-return pay;
+function calculateChange(_money, _price){
+let change = _money - _price
+return change;
 }
 
 function writeline(){
@@ -65,6 +63,7 @@ OUTPUT.innerHTML+="<h2>You spend half of your money, now you have" + newmoney+ "
 OUTPUT.innerHTML+="<h2>Then you get $3, now you have " +newermoney+ " dollars</h2>";
 if(newermoney >= 4){
     OUTPUT.innerHTML +="<p>A chocolate bar is 4 dollars, you can afford it</p>"
+    change calculateChange(newermoney,4)
 }
 else{
     OUTPUT.innerHTML +="<p>A chocolate bar is 4 dollars ,you cant afford it.</p>"
