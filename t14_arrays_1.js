@@ -40,6 +40,8 @@ money = Number(MONEY_FIELD.value);
 newmoney = money/2;
 oldage = age + 10;
 newermoney = newmoney+3;
+let CHOCOLATE_FIELD = document.getElementById("chocolateField");
+
 console.log("Hi " + username +" As of " + year + " you are " + age + " years old. As of " + year + " you have " + money + "dollars");
 console.log("You were born in " + birthyear)
 console.log("In 10 years you will be " + oldage + " years old")
