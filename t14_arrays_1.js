@@ -59,6 +59,7 @@ writeline();
 item1("Chocolate bar ",4)
 item1("Chips ",3)
 item1("Drink ",2.50)
+OUTPUT.innerHTML+="<p>"+chocolateOptions[_chocolate]+"</p>";
 OUTPUT.innerHTML += "<p>Your name is"+username+"</p>";
 OUTPUT.innerHTML+="<h2>Hi " + username +" As of " + year + " you are " + age + " years old. As of " + year + " you have " + money + "dollars</h2>";
 OUTPUT.innerHTML+="<h2> You were born in " + birthyear+ "</h2>";
