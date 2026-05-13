@@ -16,6 +16,13 @@ let oldage;
 let newmoney;
 let newermoney;
 
+function calculatePay(_hours){
+let pay= _hours*18.80;
+pay=pay-(pay*0.105);
+pay=pay-(pay*0.04);
+pay=pay
+}
+
 function writeline(){
     OUTPUT.innerHTML = "<h1>welcome to the shop</h1>";}
 function item1(_name, _price){
