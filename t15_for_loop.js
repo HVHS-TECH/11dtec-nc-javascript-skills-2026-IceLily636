@@ -19,7 +19,7 @@ let newmoney;
 let newermoney;
 let change;
 let chocolateOptions = ["You loath chocolate","Chocolate is meh", "Chocolate is pretty good","Chocolate is the best thing EVER!!!!"];
-
+let verse;
 function calculateChange(_money, _price){
 let change = _money - _price
 return change;
@@ -43,6 +43,9 @@ oldage = age + 10;
 newermoney = newmoney+3;
 const CHOCOLATE_FIELD = document.getElementById("chocolateField");
 _chocolate = Number(CHOCOLATE_FIELD.value);
+
+const VERSE_FIELD = document.getElementById("verseField");
+verse = Number(CHOCOLATE_FIELD.value);
 
 console.log("Hi " + username +" As of " + year + " you are " + age + " years old. As of " + year + " you have " + money + "dollars");
 console.log("You were born in " + birthyear)
