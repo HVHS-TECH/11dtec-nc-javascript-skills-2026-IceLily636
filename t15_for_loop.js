@@ -2,7 +2,7 @@
 /* Paste your code from the last task */
 /* Paste your code from the last task */
 /****************************
-Name of task: conditionals
+Name of task: loop
 ****************************/
 console.log("t02_variables.js")
 console.log("hi")
