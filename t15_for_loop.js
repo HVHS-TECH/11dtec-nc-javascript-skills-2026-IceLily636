@@ -79,8 +79,8 @@ if(newermoney >= 4){
 else{
     OUTPUT.innerHTML +="<p>A chocolate bar is 4 dollars ,you cant afford it.</p>"
 }
- /*****************************
- functions
- ***************************/
+
+
+
 }
 
