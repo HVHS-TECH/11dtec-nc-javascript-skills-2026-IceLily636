@@ -78,8 +78,8 @@ if(newermoney >= 4){
 else{
     OUTPUT.innerHTML +="<p>A chocolate bar is 4 dollars ,you cant afford it.</p>"
 }
-for(let i = verse; i> 0; i--)
+for(let i = verse; i> 0; i--){
 OUTPUT.innerHTML += "<p>" +i+ "bottles of coffee on the wall</p>";
-
+}
 }
 
