@@ -8,7 +8,6 @@ console.log("t02_variables.js")
 console.log("hi")
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 // variables
-let coffee;
 let username;
 let year = 2026;
 let age;
@@ -80,7 +79,7 @@ else{
     OUTPUT.innerHTML +="<p>A chocolate bar is 4 dollars ,you cant afford it.</p>"
 }
 for(let i = verse; i> 0; i--)
-OUTPUT.innerHTML += "<p>" +i+ "bottles of" + coffee + "on the wall</p>"
+OUTPUT.innerHTML += "<p>" +i+ "bottles of coffee on the wall</p>"
 
 }
 
