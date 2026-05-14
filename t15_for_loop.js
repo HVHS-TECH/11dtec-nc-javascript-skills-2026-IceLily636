@@ -45,7 +45,7 @@ const CHOCOLATE_FIELD = document.getElementById("chocolateField");
 _chocolate = Number(CHOCOLATE_FIELD.value);
 
 const VERSE_FIELD = document.getElementById("verseField");
-verse = Number(CHOCOLATE_FIELD.value);
+verse = Number(VERSE_FIELD.value);
 
 console.log("Hi " + username +" As of " + year + " you are " + age + " years old. As of " + year + " you have " + money + "dollars");
 console.log("You were born in " + birthyear)
