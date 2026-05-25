@@ -1,14 +1,13 @@
 /* Paste your code from the last task */
 /* Paste your code from the last task */
-/* Paste your code from the last task */
-/* Paste your code from the last task */
 /****************************
-Name of task: loop
+Name of task: conditionals
 ****************************/
 console.log("t02_variables.js")
 console.log("hi")
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 // variables
+
 let username;
 let year = 2026;
 let age;
@@ -19,7 +18,7 @@ let newmoney;
 let newermoney;
 let change;
 let chocolateOptions = ["You loath chocolate","Chocolate is meh", "Chocolate is pretty good","Chocolate is the best thing EVER!!!!"];
-let verse;
+
 function calculateChange(_money, _price){
 let change = _money - _price
 return change;
@@ -43,9 +42,6 @@ oldage = age + 10;
 newermoney = newmoney+3;
 const CHOCOLATE_FIELD = document.getElementById("chocolateField");
 _chocolate = Number(CHOCOLATE_FIELD.value);
-
-const VERSE_FIELD = document.getElementById("verseField");
-verse = Number(VERSE_FIELD.value);
 
 console.log("Hi " + username +" As of " + year + " you are " + age + " years old. As of " + year + " you have " + money + "dollars");
 console.log("You were born in " + birthyear)
@@ -79,8 +75,8 @@ if(newermoney >= 4){
 else{
     OUTPUT.innerHTML +="<p>A chocolate bar is 4 dollars ,you cant afford it.</p>"
 }
-for(let i = verse; i> 0; i--){
-OUTPUT.innerHTML += "<p>" +i+ "bottles of coffee on the wall</p>";
-}
+ /*****************************
+ functions
+ ***************************/
 }
 
