@@ -18,7 +18,8 @@ let newmoney;
 let newermoney;
 let change;
 let chocolateOptions = ["You loath chocolate","Chocolate is meh", "Chocolate is pretty good","Chocolate is the best thing EVER!!!!"];
-let list;
+let item;
+let listArray = [];
 function calculateChange(_money, _price){
 let change = _money - _price
 return change;
@@ -44,7 +45,7 @@ const CHOCOLATE_FIELD = document.getElementById("chocolateField");
 _chocolate = Number(CHOCOLATE_FIELD.value);
 
 const LIST_FIELD = document.getElementById("listField");
-_list = Number(LIST_FIELD.value);
+item = LIST_FIELD.value;
 
 console.log("Hi " + username +" As of " + year + " you are " + age + " years old. As of " + year + " you have " + money + "dollars");
 console.log("You were born in " + birthyear)
