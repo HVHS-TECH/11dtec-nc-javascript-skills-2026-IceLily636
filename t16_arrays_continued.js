@@ -24,7 +24,9 @@ function calculateChange(_money, _price){
 let change = _money - _price
 return change;
 }
-
+function desplayList(){
+OUTPUT.innerHTML    
+}
 function writeline(){
     OUTPUT.innerHTML = "<h1>welcome to the shop</h1>";}
 function item1(_name, _price){
@@ -60,6 +62,7 @@ console.log("Then you get $3, now you have " +newermoney+ " dollars")
 
 
 writeline();
+OUTPUT.innerHTML +="<p>you have added" +Item+ "to your list<p>"
 item1("Chocolate bar ",4)
 item1("Chips ",3)
 item1("Drink ",2.50)
