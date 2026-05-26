@@ -31,11 +31,12 @@
 <input type="text" id="moneyField" name="FormMoney">
   <label for="Formchocolate">Number:</label>
 <input type="text" id="chocolateField" name="Formchocolate">
-  <label for="Formlist">Add to your shopping list:</label>
-<input type="text" id="listField" name="Formlist">
 <input type="submit" onclick="getFormInput()">
 </form>
-
+ <form onsubmit="return false;">
+  <label for="Formlist">Add to your shopping list:</label>
+<input type="text" id="listField" name="Formlist">
+</form>
 <form onsubmit="return false;">
 <input type="submit" onclick=displayList() value="Veiw list ">
 </form>
