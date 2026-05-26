@@ -25,7 +25,10 @@ let change = _money - _price
 return change;
 }
 function desplayList(){
-OUTPUT.innerHTML    
+OUTPUT.innerHTML= "<p>Your list</p>"    
+for(let i=0; i<listArray.length; i++){
+    OUTPUT.innerHTML += "<p>" +listArray[i]+"</p>"
+}
 }
 function writeline(){
     OUTPUT.innerHTML = "<h1>welcome to the shop</h1>";}
