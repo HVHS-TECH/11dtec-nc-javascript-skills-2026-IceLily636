@@ -24,7 +24,7 @@ function calculateChange(_money, _price){
 let change = _money - _price
 return change;
 }
-function desplayList(){
+function displayList(){
 OUTPUT.innerHTML= "<p>Your list</p>"    
 for(let i=0; i<listArray.length; i++){
     OUTPUT.innerHTML += "<p>" +listArray[i]+"</p>"
