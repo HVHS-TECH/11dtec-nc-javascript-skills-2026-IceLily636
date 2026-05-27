@@ -39,6 +39,7 @@ function getListFormInput(){
 const LIST_FIELD = document.getElementById("listField");
 item = LIST_FIELD.value;
 OUTPUT.innerHTML ="<p>you have added" +item+ "to your list<p>"
+listArray.push(item)
 }
 function getFormInput(){
 const NAME_FIELD = document.getElementById("nameField");
