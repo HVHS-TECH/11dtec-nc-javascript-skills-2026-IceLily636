@@ -36,6 +36,8 @@ function item1(_name, _price){
 OUTPUT.innerHTML += "<P>" + _name + "$"+ _price + "</p>";
 }
 function getListFormInput(){
+
+}
 function getFormInput(){
 const NAME_FIELD = document.getElementById("nameField");
 username = NAME_FIELD.value;
@@ -90,4 +92,3 @@ else{
  ***************************/
 }
 
-}
