@@ -36,7 +36,9 @@ function item1(_name, _price){
 OUTPUT.innerHTML += "<P>" + _name + "$"+ _price + "</p>";
 }
 function getListFormInput(){
-
+const LIST_FIELD = document.getElementById("listField");
+item = LIST_FIELD.value;
+OUTPUT.innerHTML ="<p>you have added" +Item+ "to your list<p>"
 }
 function getFormInput(){
 const NAME_FIELD = document.getElementById("nameField");
@@ -51,8 +53,7 @@ newermoney = newmoney+3;
 const CHOCOLATE_FIELD = document.getElementById("chocolateField");
 _chocolate = Number(CHOCOLATE_FIELD.value);
 
-const LIST_FIELD = document.getElementById("listField");
-item = LIST_FIELD.value;
+
 
 console.log("Hi " + username +" As of " + year + " you are " + age + " years old. As of " + year + " you have " + money + "dollars");
 console.log("You were born in " + birthyear)
@@ -67,7 +68,7 @@ console.log("Then you get $3, now you have " +newermoney+ " dollars")
 
 
 writeline();
-OUTPUT.innerHTML +="<p>you have added" +Item+ "to your list<p>"
+
 item1("Chocolate bar ",4)
 item1("Chips ",3)
 item1("Drink ",2.50)
