@@ -42,6 +42,11 @@ OUTPUT.innerHTML ="<p>you have added" +item+ "to your list<p>"
 listArray.push(item)
 }
 function getFormInput(){
+     const MAIN_FORM = document.getElementById("mainForm");
+    if (MAIN_FORM.checkValidity() === false) {
+        OUTPUT.innerHTML = "Please fill out all fields correctly.<br>";
+    } else {
+
 const NAME_FIELD = document.getElementById("nameField");
 username = NAME_FIELD.value;
 const AGE_FIELD = document.getElementById("ageField");
@@ -95,5 +100,5 @@ if(AGE_FIELD < 13){
  /*****************************
  functions
  ***************************/
-}
+}}
 
