@@ -97,6 +97,11 @@ else{
 if(AGE_FIELD < 13){
     OUTPUT
 }
+if (AGE_FIELD.value < 13) {
+  OUTPUT.innerHTML = "Shmall child.<br>";
+} else if (AGE_FIELD.value > 99) {
+  OUTPUT.innerHTML = "UNC<br>";
+}
  /*****************************
  functions
  ***************************/
