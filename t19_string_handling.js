@@ -49,6 +49,10 @@ function getFormInput(){
 
 const NAME_FIELD = document.getElementById("nameField");
 username = NAME_FIELD.value;
+if(username.length <3){
+OUTPUT.innerHTML="<p>ADD MORE LETTERS </p>"
+}
+else{
 const AGE_FIELD = document.getElementById("ageField");
 age = Number(AGE_FIELD.value);
 const MONEY_FIELD = document.getElementById("moneyField");
@@ -105,5 +109,5 @@ if (AGE_FIELD.value < 13) {
  /*****************************
  functions
  ***************************/
-}}
+}}}
 
