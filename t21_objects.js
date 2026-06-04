@@ -47,29 +47,29 @@ function getFormInput(){
     } else {
 
 const NAME_FIELD = document.getElementById("nameField");
-username = NAME_FIELD.value;
-if(username.length < 3){
+USER.name = NAME_FIELD.value;
+if(USER.name.length < 3){
 OUTPUT.innerHTML="<p>ADD MORE LETTERS </p>"
 }
 else{
 const AGE_FIELD = document.getElementById("ageField");
-age = Number(AGE_FIELD.value);
+USER.age = Number(AGE_FIELD.value);
 const MONEY_FIELD = document.getElementById("moneyField");
-money = Number(MONEY_FIELD.value);
-newmoney = money/2;
-oldage = age + 10;
-newermoney = newmoney+3;
+USER.money = Number(MONEY_FIELD.value);
+USER.newmoney = USER.money/2;
+USER.oldage = USER.age + 10;
+USER.newermoney = USER.newmoney+3;
 const CHOCOLATE_FIELD = document.getElementById("chocolateField");
 _chocolate = Number(CHOCOLATE_FIELD.value);
 
  
 //console logs
-console.log("Hi " + username +" As of " + year + " you are " + age + " years old. As of " + year + " you have " + money + "dollars");
+console.log("Hi " + USER.name +" As of " + year + " you are " + USER.age + " years old. As of " + year + " you have " + USER.money + "dollars");
 console.log("You were born in " + birthyear)
-console.log("In 10 years you will be " + oldage + " years old")
-console.log("You have " +money+ " dollars")
-console.log("You spend half of your money, now you have" + newmoney+ "dollars")
-console.log("Then you get $3, now you have " +newermoney+ " dollars")
+console.log("In 10 years you will be " + USER.oldage + " years old")
+console.log("You have " +USER.money+ " dollars")
+console.log("You spend half of your money, now you have" + USER.newmoney+ "dollars")
+console.log("Then you get $3, now you have " +USER.newermoney+ " dollars")
 
 /****************************
  main code
@@ -82,13 +82,13 @@ item1("Chocolate bar ",4)
 item1("Chips ",3)
 item1("Drink ",2.50)
 OUTPUT.innerHTML+="<p>"+chocolateOptions[_chocolate]+"</p>";
-OUTPUT.innerHTML += "<p>Your name is"+username+"</p>";
-OUTPUT.innerHTML+="<h2>Hi " + username +" As of " + year + " you are " + age + " years old. As of " + year + " you have " + money + "dollars</h2>";
+OUTPUT.innerHTML += "<p>Your name is"+USER.name+"</p>";
+OUTPUT.innerHTML+="<h2>Hi " + USER.name +" As of " + year + " you are " + USER.age + " years old. As of " + year + " you have " + USER.money + "dollars</h2>";
 OUTPUT.innerHTML+="<h2> You were born in " + birthyear+ "</h2>";
-OUTPUT.innerHTML+="<h2>In 10 years you will be " + oldage + " years old</h2>";
-OUTPUT.innerHTML+="<h2>You have " +money+ " dollars</h2>";
-OUTPUT.innerHTML+="<h2>You spend half of your money, now you have" + newmoney+ "dollars</h2>";
-OUTPUT.innerHTML+="<h2>Then you get $3, now you have " +newermoney+ " dollars</h2>";
+OUTPUT.innerHTML+="<h2>In 10 years you will be " + USER.oldage + " years old</h2>";
+OUTPUT.innerHTML+="<h2>You have " +USER.money+ " dollars</h2>";
+OUTPUT.innerHTML+="<h2>You spend half of your money, now you have" + USER.newmoney+ "dollars</h2>";
+OUTPUT.innerHTML+="<h2>Then you get $3, now you have " +USER.newermoney+ " dollars</h2>";
 if(newermoney >= 4){
     OUTPUT.innerHTML +="<p>A chocolate bar is 4 dollars, you can afford it</p>"
     _change = calculateChange(newermoney,4)
