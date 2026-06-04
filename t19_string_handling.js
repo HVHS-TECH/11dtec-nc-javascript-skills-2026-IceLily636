@@ -49,7 +49,7 @@ function getFormInput(){
 
 const NAME_FIELD = document.getElementById("nameField");
 username = NAME_FIELD.value;
-if(username.length <3){
+if(username.length < 3){
 OUTPUT.innerHTML="<p>ADD MORE LETTERS </p>"
 }
 else{
