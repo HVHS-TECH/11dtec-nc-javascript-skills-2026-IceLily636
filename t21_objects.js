@@ -64,7 +64,7 @@ _chocolate = Number(CHOCOLATE_FIELD.value);
 
  
 //console logs
-console.log("Hi " + USER.name +" As of " + year + " you are " + USER.age + " years old. As of " + year + " you have " + USER.money + "dollars");
+console.log("Hi " + USER.name +" As of " + YEAR + " you are " + USER.age + " years old. As of " + YEAR + " you have " + USER.money + "dollars");
 console.log("You were born in " + birthyear)
 console.log("In 10 years you will be " + USER.oldage + " years old")
 console.log("You have " +USER.money+ " dollars")
@@ -83,7 +83,7 @@ item1("Chips ",3)
 item1("Drink ",2.50)
 OUTPUT.innerHTML+="<p>"+chocolateOptions[_chocolate]+"</p>";
 OUTPUT.innerHTML += "<p>Your name is"+USER.name+"</p>";
-OUTPUT.innerHTML+="<h2>Hi " + USER.name +" As of " + year + " you are " + USER.age + " years old. As of " + year + " you have " + USER.money + "dollars</h2>";
+OUTPUT.innerHTML+="<h2>Hi " + USER.name +" As of " + YEAR + " you are " + USER.age + " years old. As of " + YEAR + " you have " + USER.money + "dollars</h2>";
 OUTPUT.innerHTML+="<h2> You were born in " + birthyear+ "</h2>";
 OUTPUT.innerHTML+="<h2>In 10 years you will be " + USER.oldage + " years old</h2>";
 OUTPUT.innerHTML+="<h2>You have " +USER.money+ " dollars</h2>";
