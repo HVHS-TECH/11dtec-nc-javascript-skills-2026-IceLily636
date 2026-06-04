@@ -20,6 +20,28 @@
   <p>Open the console <code>(Ctrl-shift-i)</code> to see the messages.</p>
 
   <p><br><br><i>Copy your HTML from the last task and keep building.</i><br><br><br><br></p>
+  
+ <form id="mainForm" onsubmit="return false;">
+  <label for="FormName">Name:</label>
+<input type="text" id="nameField" name="FormName" required>
+  <label for="FormAge">Age:</label>
+<input type="number" id="ageField" name="FormAge" min="1" max="2000000">
+<label for="FormMoney">Money:</label>
+<input type="number" id="moneyField" name="FormMoney" required>
+  <label for="Formchocolate">Number:</label>
+<input type="number" id="chocolateField" name="Formchocolate"required>
+<input type="submit" onclick="getFormInput()">
+</form>
+
+ <form id="listForm" onsubmit="return false;">
+  <label for="Formlist">Add to your shopping list:</label>
+<input type="text" id="listField" name="Formlist">
+<input type="submit" onclick="getListFormInput()">
+</form>
+
+<form onsubmit="return false;">
+<input type="submit" onclick=displayList() value="Veiw list ">
+</form>
 
   <div id="spaceForJavaScriptOutput">
 
