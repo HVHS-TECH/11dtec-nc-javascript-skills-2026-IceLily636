@@ -13,10 +13,8 @@ const USER ={};
 const YEAR = 2026;
 
 
-let birthyear =2011;
-let oldage;
-let newmoney;
-let newermoney;
+const birthyear =2011;
+
 let change;
 let chocolateOptions = ["You loath chocolate","Chocolate is meh", "Chocolate is pretty good","Chocolate is the best thing EVER!!!!"];
 let item;
