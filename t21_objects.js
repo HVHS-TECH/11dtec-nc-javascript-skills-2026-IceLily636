@@ -8,11 +8,11 @@ console.log("t02_variables.js")
 console.log("hi")
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 // variables
+const USER ={};
 
-let username;
-let year = 2026;
-let age;
-let money;
+const YEAR = 2026;
+
+
 let birthyear =2011;
 let oldage;
 let newmoney;
@@ -64,7 +64,7 @@ newermoney = newmoney+3;
 const CHOCOLATE_FIELD = document.getElementById("chocolateField");
 _chocolate = Number(CHOCOLATE_FIELD.value);
 
-
+ 
 //console logs
 console.log("Hi " + username +" As of " + year + " you are " + age + " years old. As of " + year + " you have " + money + "dollars");
 console.log("You were born in " + birthyear)
