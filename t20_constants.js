@@ -22,8 +22,8 @@ let chocolateOptions = ["You loath chocolate","Chocolate is meh", "Chocolate is 
 let item;
 let listArray = [];
 function calculateChange(_money, _price){
-let change = _money - _price
-return change;
+let _change = _money - _price
+return _change;
 }
 function displayList(){
 OUTPUT.innerHTML= "<p>Your list</p>"    
